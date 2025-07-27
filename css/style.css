@@ -598,7 +598,8 @@ h3.my-profession{
 .portfolio .portfolio-item-inner .portfolio-img img{
     width:100%;
     height: 200px
-    display:block;
+    object-fit: cover;
+    display: block;
 }
 .project-title {
     color: var(--text-black-900);
